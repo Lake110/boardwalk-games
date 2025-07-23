@@ -77,19 +77,20 @@ h2 {
     border: none;
 }
 
-/*footer / contact */
+/* Footer / contact */
+
 #contact {
     background-color: var(--primary-color);
     color: white;
     padding-bottom: 3rem;
 }
 
-#contact h2{
+#contact h2 {
     color: white;
 }
 
 #contact .sub-heading-color {
-    color: var(--highlight-color);
+    color: var(--highlight-color-light);
 }
 
 #contact i {
@@ -106,6 +107,10 @@ h2 {
 
 #contact .social-links i:hover {
     color: var(--secondary-color);
+}
+
+#contact .table-dark * {
+    background-color: transparent;
 }
 
 /* grid visualisation CSS for testing */
